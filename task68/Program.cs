@@ -15,5 +15,5 @@ int AckermanFunction(int m, int n)
     else return AckermanFunction(m - 1, AckermanFunction(m, n - 1));
 }
 
-Console.WriteLine(AckermanFunction(numberM, numberN));
+Console.WriteLine($"Функция Аккермана({numberM},{numberN})   равна: {AckermanFunction(numberM, numberN)}");
 
